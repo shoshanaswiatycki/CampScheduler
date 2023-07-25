@@ -37,5 +37,9 @@ create table dbo.ScheduleConstant(
     MaxStartTime time not null,
     MinStartTime time not null,
     LocationId int null
+)\
+drop table if exists Group 
+create table dbo.Group(
+    Id int not null identity primary key,
+    Name varchar(50) not null
 )
-
