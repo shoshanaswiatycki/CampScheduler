@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shoshana Swiatycki\\source\\repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\ClassLibrary.csproj": {}
+    "C:\\Users\\Owner\\Source\\Repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\ClassLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shoshana Swiatycki\\source\\repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\ClassLibrary.csproj": {
+    "C:\\Users\\Owner\\Source\\Repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\ClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shoshana Swiatycki\\source\\repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\ClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Owner\\Source\\Repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\ClassLibrary.csproj",
         "projectName": "ClassLibrary",
-        "projectPath": "C:\\Users\\Shoshana Swiatycki\\source\\repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\ClassLibrary.csproj",
-        "packagesPath": "C:\\Users\\Shoshana Swiatycki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shoshana Swiatycki\\source\\repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Owner\\Source\\Repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\ClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\Source\\Repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Shoshana Swiatycki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AMPCb82c/8liBqMDtLEd3ttXOnBbMlzSMPp0azQXeDJOzfNYcVWDwXEgBp+jlzrbxcNV3QQ6ucVeeHBGyXl9Yg==",
+  "dgSpecHash": "o7uXQLsU8F4ZjygArXlnEWlD6yJ4f5LH6iusejG14EgVSFW5hVgM41rNKKqrb5f5I7ACQZ9MfqWYUuSRq1b/zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shoshana Swiatycki\\source\\repos\\CampScheduler\\CampScheduler\\CampScheduler\\CampScheduler\\CampScheduler.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Owner\\Source\\Repos\\CampScheduler\\CampScheduler\\CampScheduler\\CampScheduler\\CampScheduler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512"
+  ],
   "logs": []
 }
