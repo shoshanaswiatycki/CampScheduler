@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9n76NjhIBixO9qVNk827KAqkK3d6vfGgc21blcuIgl3wFZMIKjbbDnDbVK2/DIzHg6Y2szLM09vUuPU32Vqn2g==",
+  "dgSpecHash": "btBXo5vj3V1v2KAIt9D9u1Lh/cYDTG0BKGb8cQxNL5UON7VFVWubL+OG/7OC8DTheeIKJnarmcvD1s5zrONaDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shoshana Swiatycki\\source\\repos\\CampScheduler\\CampScheduler\\CampScheduler\\ClassLibrary\\ClassLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Shoshana Swiatycki\\source\\repos\\CampScheduler\\CampScheduler\\CampScheduler\\Framework\\Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shoshana Swiatycki\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
     "C:\\Users\\Shoshana Swiatycki\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

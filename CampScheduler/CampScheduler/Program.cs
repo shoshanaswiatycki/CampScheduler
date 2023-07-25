@@ -22,4 +22,6 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+Framework.SQLUtility.ConnectionString = app.Configuration.GetConnectionString("conn");
+
 app.Run();
