@@ -9,6 +9,18 @@ namespace Framework
     {
         public enum ExecSQLTypeEnum { NoResultSet, SingleRecord, MultipleRecord }
         public static string ConnectionString { get; set; } = "";
+        public static T ExecuteGetSingleDapper<T>(string sprocname, DynamicParameters dynamparam)
+        {
+            return (T)DoExecuteSQLDapper<T>(sprocname, dynamparam, ExecSQLTypeEnum.SingleRecord);
+        }
+        public static List<T> ExecuteGetListDapper<T>(string sprocname, DynamicParameters dynamparam)
+        {
+            return (List<T>)DoExecuteSQLDapper<T>(sprocname, dynamparam, ExecSQLTypeEnum.MultipleRecord);
+        }
+        public static void ExecuteSQLDapper(string sprocname, DynamicParameters dynamparam)
+        {
+            DoExecuteSQLDapper<object>(sprocname, dynamparam, ExecSQLTypeEnum.NoResultSet);
+        }
         private static object DoExecuteSQLDapper<T>(string sprocname, DynamicParameters dynamparam, ExecSQLTypeEnum execsqltype)
         {
             object? obj = null;
@@ -37,5 +49,6 @@ namespace Framework
             //}
             return obj;
         }
+
     }
 }
